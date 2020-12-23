@@ -29,8 +29,8 @@ function ToDoForm(props) {
     }
     return (
         <form className="todo-form" onSubmit={handleSubmit}>
-            <input type="text" onChange={handleChange} placeholder="Add to do" value={input} name='text' className='todo-input' ref={inputRef} />
-            <button className='todo-button'>Add todo</button>
+            <input type="text" onChange={handleChange} placeholder="Rejalarga qo'shish" value={input} name='text' className='todo-input' ref={inputRef} />
+            <button className='todo-button'>Qo'shish</button>
         </form>
     )
 }

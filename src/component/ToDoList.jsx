@@ -39,7 +39,7 @@ function ToDoList() {
     }
     return (
         <div>
-            <h1>What's the Plan for Today?</h1>
+            <h1>Bugungi rejalaringiz qanday?</h1>
             <ToDoForm onSubmit={addTodo} />
             <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
         </div>
